@@ -1,4 +1,4 @@
-import { useState } from "react"
+import React, { useState } from "react"
 import { Square } from "./components/Square"
 import { TURNS } from "./constants"
 import { checkWinner } from "./logic/board"
